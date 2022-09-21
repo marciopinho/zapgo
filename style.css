@@ -1,5 +1,6 @@
 body {
-  background: url("images/bkg.jpg");
+  /* background: url("images/bkg.jpg"); */
+  background-color: #28da3d;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -21,12 +22,13 @@ h3 {
   font-family: 'Rubik';
   font-weight: 200;
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin: 2rem 0;
 }
 
 .navbar {
   height: 40px;
-  background-color: #004a0a;
+  background-color: #000000;
   padding: 3px 10px;
 }
 
@@ -54,7 +56,7 @@ h3 {
 .container {
   max-width: 500px;
   padding: 3em;
-  background-color: rgba(23, 114, 0, 0.3);
+  background-color: rgba(68, 68, 68, 0.3);
   border-radius: 3px;
 }
 
@@ -79,6 +81,10 @@ h3 {
 
 .btn {
   width: auto;
+  /* background-color: #00b418; */
+  background-color: #000000;
+  border: none;
+  border-radius: 2px;
 }
 
 .zapgo-tag {
@@ -86,4 +92,9 @@ h3 {
   margin-top: 0.5rem;
   font-family: "Secular One";
   color: #fff;
+}
+
+.form-control {
+  border-radius: 2px;
+  border-color: rgb(249, 249, 249);
 }
