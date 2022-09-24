@@ -1,8 +1,6 @@
-const phoneForm = document.getElementById('phone-form');
+import { sendMessage } from "./send_message";
 
-const sendMessage = (phone) => {
-  window.open(`https://wa.me/55${phone}`);
-};
+const phoneForm = document.getElementById('phone-form');
 
 phoneForm.addEventListener('submit', (event) => {
   event.preventDefault();
