@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 import { sendMessage } from "./send_message";
 
 const phoneForm = document.getElementById('phone-form');
