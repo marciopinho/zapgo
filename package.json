@@ -1,6 +1,7 @@
 {
   "name": "javascript-101",
   "version": "1.0.0",
+  "homepage": "https://marciopinho.github.io/zapgo.github.io/",
   "description": "Starting code for First JavaScript ES6 lecture",
   "main": "index.js",
   "repository": "https://github.com/lewagon/webpack-boilerplate",
