@@ -1,4 +1,3 @@
-import $ from 'jquery';
 
 import { sendMessage } from "./send_message";
 
