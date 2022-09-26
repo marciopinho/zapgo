@@ -1,7 +1,15 @@
 
-import { sendMessage } from "./src/send_message";
+// import { sendMessage } from "./src/send_message";
 
 const phoneForm = document.getElementById('phone-form');
+
+const sendMessage = (phone) => {
+  window.open(`https://wa.me/55${phone}`);
+};
+
+console.log('sendMessage loaded');
+
+export { sendMessage };
 
 phoneForm.addEventListener('submit', (event) => {
   event.preventDefault();
